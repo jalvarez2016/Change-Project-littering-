@@ -22,7 +22,7 @@ p{
 
 #bottle{
     height:100px;
-    bottom:60px;
+    top:90px;
     left:600px;
     width:100px;
     position: absolute;
@@ -30,7 +30,7 @@ p{
 
 #bottleb{
     height:100px;
-    bottom:40px;
+    top:110px;
     left:1000px;
     width:100px;
     position: absolute;
@@ -38,7 +38,7 @@ p{
 
 #plastic{
     height:100px;
-    bottom:220px;
+    top:220px;
     left:100px;
     width:100px;
     position: absolute;
@@ -48,28 +48,28 @@ p{
     width:100px;
     height:100px;
     position: absolute;
-    bottom: 60px;
-    left: 285px;
+    top: 90px;
+    z-index: 1;
 }
 
 #paper{
     height:50px;  
     position: absolute;
-    bottom: 250px;
+    top: 250px;
     left: 800px;
 }
 
 #ball{
     height:50px;  
     position: absolute;
-    bottom: 150px;
+    top: 150px;
     left: 200px;
 }
 
 #paperb{
     height:50px;  
     position: absolute;
-    bottom: 300px;
+    top: 300px;
     left: 500px;
 }
 h3{
