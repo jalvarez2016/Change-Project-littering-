@@ -228,8 +228,9 @@ $(document).ready(function() {
         $("#choise2").html(" You heard me. ");
        } else if(choises === 3){
         $("#dialog").append("<p>" + " You heard me. " + "</p>");
-        $("#dialog").append( "<p>" + " Johnas : O'k i'll clean up after myself. " + "</p>");
+        $("#dialog").append( "<p>" + " Johnas slightly scared: O'k i'll clean up after myself. " + "</p>");
         $(".litter").hide();
+        $("#dialog").append("<p>" + "Narrator also slightly scared : Congrats you win... " + "</p>");
         $("#choise2").html("...");
        }
    });
